@@ -1,0 +1,16 @@
+/*basic properties of the whole page*/
+body {
+    /*margin:20px;*/
+    background-color: white; /*#133951;*/
+}
+
+.header {
+	color:#DDDDDD; /*deepskyblue;*/
+	/*background:white;
+	font-size: 30px;*/
+}
+
+.navbar {
+	background-color: orange;
+	color: #DDDDDD;
+}

@@ -1,0 +1,50 @@
+from django.test import TestCase
+
+# Create your tests here.
+
+
+"""
+def home(request):
+	response = requests.get("https://api.crossref.org/works/10.2196/12121") #/agency")	
+	#response = requests.get("https://api.crossref.org/works/10.1002/advs.201400001")		   
+	print ('testing2')
+	ans = response.json()
+	print (ans.keys())
+	print (ans['message'].keys())
+	print()
+	#print (ans['message']['indexed'])
+	print ('refcount ', ans['message']['reference-count'])
+	print ('publisher ', ans['message']['publisher'])
+	print ('issue ', ans['message']['issue'])
+	#print (ans['message']['content-domain'])
+	print ('sct ', ans['message']['short-container-title'])
+	print ('Doi ', ans['message']['DOI'])
+	print ('type ', ans['message']['type'])
+	#print (ans['message']['created'])
+	print ('page ', ans['message']['page'])
+	print ('source ' , ans['message']['source'])
+	print ('isrefencedbycount ', ans['message']['is-referenced-by-count'])
+	print ('title ', ans['message']['title'][0])
+	print ('prefix ', ans['message']['prefix'])
+	print ('volume ', ans['message']['volume'])
+	#print (ans['message']['author'])
+	print ('member ', ans['message']['member'])
+	#print (ans['message']['published-online'])
+	#print (ans['message']['reference'])
+	print ('ct ', ans['message']['container-title'][0])
+	#print (ans['message']['original-title'])
+	print ('lang ', ans['message']['language'])
+	#print (ans['message']['deposited'])
+	print ('score ', ans['message']['score'])
+	#print (ans['message']['subtitle'])
+	#print (ans['message']['short-title'])
+	#print (ans['message']['issued'])
+	print ('rc ', ans['message']['reference-count'])
+	#print (ans['message']['journal-issue'])
+	print ('url ', ans['message']['URL'])
+	#print (ans['message']['relation'])
+	print ('issn ', ans['message']['ISSN'][0])
+	#print (ans['message']['issn-type'])
+
+	return JsonResponse(response.json())
+"""
